@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    
+</head>
+<body>
+    <header>
+    </header>
+
+    <main>
+        <h1 id="title">Farkin CoOl</h1>
+        <h2 id="subtitle">Mi Pagina Web</h2>
+    
+        <section class="container">
+            <div >
+                <h2 class="section">Quien soy?</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus saepe blanditiis commodi totam quasi eligendi optio tempore nulla, excepturi maiores vero nesciunt, aspernatur ad debitis architecto consequatur? Itaque veritatis ex, nihil necessitatibus aliquid assumenda accusamus molestiae optio voluptate exercitationem. Vero culpa porro aliquam excepturi ipsa, facilis minus asperiores saepe perspiciatis voluptas debitis officiis deserunt voluptatem ea itaque accusantium at qui cupiditate? Perferendis expedita libero odio asperiores ex veritatis rem! Perspiciatis veritatis laudantium sint ea fuga repellat amet optio quidem molestiae?</p>
+            </div>
+        </section>
+    
+        <section class="container">
+            <div>
+                <h2 class="section">Mis Tecnologias Favoritas</h2>
+                <div id="logoImagen">
+                    <div class="image-container">
+                        <h2 class="image-title">HTML</h2>
+                        <div class="image-wrapper">
+                            <img src="./assets/img/html.jpeg" alt="html" class="image">
+                        </div>
+                    </div>    
+                    <div class="image-container">
+                        <h2 class="image-title">CSS</h2>
+                        <div class="image-wrapper">
+                            <img src="./assets/img/css.jpeg" alt="css" class="image">
+                        </div>
+                    </div>    
+                    <div class="image-container">
+                        <h2 class="image-title">JavaScript</h2>
+                        <div class="image-wrapper">
+                            <img src="./assets/img/js.jpeg" alt="js" class="image">
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </section>
+    
+        <section class="container">
+            <h2 class="section">Mis Actividades Favoritas</h2>
+            <form id="new-activity-form">
+                <div>
+                    <input name="new-title" id="title"  placeholder="Nombre de la Actividad" class="textarea">
+                </div>
+                <div>
+                    <textarea name="new-description" id="description"  placeholder="Descripcion de la Actividad" class="textarea" ></textarea>
+                </div>
+                <div>
+                    <input name="new-picture" id="picture"  placeholder="Link de la Imagen" class="textarea">
+                </div>    
+                <div>
+                    <button id="button">Agregar Actividad</button>
+                </div>
+            </form>    
+            <div>
+                <div id="listActivities"></div>
+            </div>    
+        </section>
+    </main>    
+
+    <footer>
+    </footer>
+    
+<script src="./scripts/index.js"> </script>
+</body>
+</html>
